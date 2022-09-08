@@ -16,10 +16,6 @@ terraform {
 }
 
 provider "snowflake" {
-  username = "lohith"
-  password = "P@ssw0rdSnowflake"
-  account  = "QW66955"
-  region   = "ap-south-1.aws"
 }
 
 resource "snowflake_database" "demo_db" {
